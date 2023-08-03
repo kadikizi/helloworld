@@ -29,13 +29,3 @@ public class Vehicle {
     }
 }
 
-public class Main {
-    public static void main(String[] args) {
-        Car car = new Car("Toyota", "Red", 2021, 4);
-        car.start();
-        car.accelerate();
-        car.brake();
-        car.drift();
-        car.stop();
-    }
-}
